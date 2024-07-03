@@ -5,7 +5,7 @@ import pandas as pd
 # Importing the dataset
 #DIR='C:/Users/Mansi/Desktop/Heart_disease_prediction_project/predict_risk/machine_learning_models'
 
-dataset = pd.read_csv('C:/Users/rupak dey/Desktop/Heart-disease-prediction-master/Heart-disease-prediction-master/predict_risk/machine_learning_models/HealthData.csv')
+dataset = pd.read_csv("C:\code\heart-disease-prediction\predict_risk\machine_learning_models\HealthData.csv")
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 13].values
 #handling missing data
